@@ -1,0 +1,19 @@
+# Núcleo do pipeline de visão
+numpy
+opencv-contrib-python
+
+# Comunicação com o robô UR (RTDE) — necessário apenas com o robô físico
+ur-rtde
+
+# Segmentação de instâncias (instala torch/torchvision como dependência)
+ultralytics
+pyyaml
+
+# Interface gráfica (gui_app.py)
+customtkinter
+pillow
+
+# Gráficos e análise de logs (plot_reprojection_errors.py)
+matplotlib
+pandas
+seaborn
