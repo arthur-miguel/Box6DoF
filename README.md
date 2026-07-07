@@ -37,6 +37,7 @@ yolo-finetune/
   train_segmentation.py       fine-tuning do yolo26n-seg (treino/inferência/export)
   results.csv                 métricas por época do treinamento realizado
   Dataset/data.yaml           configuração do dataset (imagens baixadas à parte)
+  pesos/*.pt                  pesos do modelo base (yolo26n-seg.pt) e do fine tuned (best.pt)
 ```
 
 ## Instalação
